@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Tarea 1</title>
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <h1>Consulta</h1>
+
+      <div class="Row">
+		<div class="col-md-8">
+			<label id="lblIdentificacion">Identificación: </label>
+		</div>
+		<div class="col-md-4">
+			<input type="text" id="txtIdentificacion" class="form-control"></input>
+			<input type="button" id="btnConsultar" class="btn btn-success" value="Consultar" onclick="ConsultarHacienda();"></input>
+		</div>
+	  </div>
+	  </br>
+	  <div class="Row">
+		  <div class="col-md-12">
+			<label id="lblNombre">Nombre: </label>
+		  </div>
+		  <div class="col-md-4">
+			<input type="text" disabled="disabled" id="txtNombre" class="form-control"></input>
+		  </div>
+	  </div>
+	  </br>
+	  <div class="Row">
+		<div class="col-md-12">
+			<label id="lblMoroso">Moroso: </label>
+		</div>
+		<div class="col-md-4">
+			<input type="text" disabled="disabled" id="txtMoroso" class="form-control"></input>
+		</div>
+		</div>
+	  </br>
+	  <div class="Row">
+		  <div class="col-md-12">
+			<label id="lblActividad">Descripción Actividad Económica: </label>
+		  </div>
+		  <div class="col-md-4">
+			<textarea rows="5" disabled="disabled" id="txtActividad" class="form-control"></textarea>
+		  </div>
+	  </div>
+  </div>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/simple-sidebar.js"></script>
+
+</body>
+</html>
